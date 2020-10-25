@@ -6,10 +6,10 @@ int nilai_ADC_sensor = 0;
 
 void setup ()
 {
-  lcd.begin(20, 4);
-  lcd.setCursor(0, 0);
+  lcd.begin(20,4);
+  lcd.setCursor(0,0);
   lcd.print("Monitoring Suhu");
-  lcd.setCursor(0, 1);
+  lcd.setCursor(0,1);
   lcd.print("Telekomunikasi PNJ");
   delay (1000);
   lcd.clear();
